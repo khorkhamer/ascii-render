@@ -9,7 +9,7 @@ use AsciiRender\Frame\MainFrame;
 class Pool
 {
     /** @var FrameItem[] */
-    private array $frameItems;
+    protected array $frameItems;
 
     private MainFrame $mainFrame;
 

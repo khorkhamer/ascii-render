@@ -10,6 +10,7 @@ class FrameItem
     public function __construct(
         private Frame $frame,
         private Point $position,
+        private int $level,
     ) { }
 
     /**
@@ -26,5 +27,10 @@ class FrameItem
     public function getPosition(): Point
     {
         return $this->position;
+    }
+
+    public function getLevel(): int
+    {
+        return $this->level;
     }
 }
