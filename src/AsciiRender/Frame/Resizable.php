@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Frame;
+namespace AsciiRender\Frame;
 
 interface Resizable
 {

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Dto;
+namespace AsciiRender\Dto;
 
-use App\Frame\Frame;
+use AsciiRender\Frame\Frame;
 
 class FrameItem
 {

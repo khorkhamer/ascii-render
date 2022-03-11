@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App;
+namespace AsciiRender;
 
 use PhpSchool\Terminal\IO\ResourceInputStream;
 use PhpSchool\Terminal\IO\ResourceOutputStream;

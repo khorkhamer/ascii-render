@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Frame;
+namespace AsciiRender\Frame;
 
-use App\Dto\Point;
+use AsciiRender\Dto\Point;
 
 interface MainFrameInterface extends Resizable
 {

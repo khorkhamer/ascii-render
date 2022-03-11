@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Pool;
+namespace AsciiRender\Pool;
 
-use App\Dto\FrameItem;
-use App\Frame\MainFrame;
+use AsciiRender\Dto\FrameItem;
+use AsciiRender\Frame\MainFrame;
 
 class Pool
 {

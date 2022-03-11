@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App;
+namespace AsciiRender;
 
-use App\Pool\Screen;
+use AsciiRender\Pool\Screen;
 use PhpSchool\Terminal\IO\ResourceInputStream;
 use PhpSchool\Terminal\IO\ResourceOutputStream;
 use PhpSchool\Terminal\Terminal;

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Pool;
+namespace AsciiRender\Pool;
 
-use App\Dto\FrameItem;
+use AsciiRender\Dto\FrameItem;
 
 interface PoolInterface
 {

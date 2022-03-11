@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Pool;
+namespace AsciiRender\Pool;
 
-use App\Dto\FrameItem;
-use App\Dto\Point;
-use App\Frame\Frame;
+use AsciiRender\Dto\FrameItem;
+use AsciiRender\Dto\Point;
+use AsciiRender\Frame\Frame;
 
 class Screen extends Pool
 {
