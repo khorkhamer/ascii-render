@@ -1,0 +1,19 @@
+{
+    "name": "vdkh/test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+            }
+    },
+    "authors": [
+        {
+            "name": "vdkh",
+            "email": "kharkavin.vd@gmail.com"
+        }
+    ],
+    "require": {
+        "php-school/terminal": "^0.2.1",
+      "ext-pcntl": "*"
+    }
+}
