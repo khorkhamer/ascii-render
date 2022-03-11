@@ -15,6 +15,7 @@ class InputSystem
     public function __construct()
     {
         $this->terminal = new UnixTerminal(new ResourceInputStream(), new ResourceOutputStream());
+        stream_set_blocking(STDIN, false);
     }
 
     public function listen(): string

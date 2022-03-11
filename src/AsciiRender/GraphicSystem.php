@@ -34,6 +34,7 @@ class GraphicSystem
         $this->terminal->enableCanonicalMode();
         $this->terminal->enableEchoBack();
         $this->terminal->enableCursor();
+        stream_set_blocking(STDIN, true);
         die($text);
     }
 
