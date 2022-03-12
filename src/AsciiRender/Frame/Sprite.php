@@ -5,6 +5,19 @@ namespace AsciiRender\Frame;
 
 class Sprite extends Frame
 {
+    const MAP = [
+        '>' => '<',
+        '<' => '>',
+        '\\' => '/',
+        '/' => '\\',
+        '(' => ')',
+        ')' => '(',
+        '[' => ']',
+        ']' => '[',
+        '{' => '}',
+        '}' => '{',
+    ];
+
     public function __construct(string $string)
     {
         $string = trim($string, "\n");
@@ -14,8 +27,15 @@ class Sprite extends Frame
         }, $lines);
     }
 
-    public function getLines(): array
+    public function reverse(): void
     {
-        return $this->lines;
+        foreach ($this->lines as &$line) {
+            foreach ($line as &$char) {
+                if ($reversedChar = self::MAP[$char]) {
+                    $char = $reversedChar;
+                }
+            }
+            $line = array_reverse($line);
+        }
     }
 }
