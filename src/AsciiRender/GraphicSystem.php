@@ -40,7 +40,6 @@ class GraphicSystem
 
     public function clear(): void
     {
-        $this->terminal->moveCursorToTop();
         $this->terminal->clearDown();
     }
 
