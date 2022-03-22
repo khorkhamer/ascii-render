@@ -35,7 +35,7 @@ class MainFrame extends Frame implements MainFrameInterface
         $this->fill();
     }
 
-    public function format(): string
+    public function output(): string
     {
         return implode("\n", array_map(function (array $line) {
             return implode('', $line);
